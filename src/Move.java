@@ -3,6 +3,7 @@ import java.io.*;
 public class Move {
     String[][] board;
     Scanner myObj = new Scanner(System.in);
+
     boolean castling, enpassant;
     boolean mistake;
     static int check, matecheck;   //Obydwie zmienne pelnia te sama funkcje co castling oraz enpassant wiec powinny byc typu boolean.
